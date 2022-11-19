@@ -1,8 +1,9 @@
-function ProfileCard({ title, handle }) {
-    console.log(title, handle);
+function ProfileCard({ title, handle, image }) {
+    // console.log(title, handle, image);
 
     return (
         <div>
+            <img src={image} alt="pda logo" />
             <div>{title}</div>
             <div>{handle}</div>
         </div>
